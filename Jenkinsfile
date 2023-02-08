@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 
-                git url: 'https://github.com/abdelkhalek97/Booster_CI_CD_Project.git' ,branch: 'main'
+                git url: 'https://github.com/abdelkhalek97/Booster_CI_CD_Project.git' ,branch: 'master'
                 sh "ls"
 
           }
