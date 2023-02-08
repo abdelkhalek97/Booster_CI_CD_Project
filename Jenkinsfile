@@ -15,7 +15,5 @@ pipeline {
                 sh "terraform plan"
             }
         }
-        
-        }
     }
 }
